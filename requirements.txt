@@ -1,7 +1,2 @@
+https://datapane-cdn.com/python-client-dev/datapane--py3-none-any.whl?cache-bust=55345
 ipywidgets==7.7.1
-matplotlib
-numpy
-pandas
-torch
-torchvision==0.13.1
-tqdm==4.64.0

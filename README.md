@@ -1,7 +1,56 @@
-# GitHub Codespaces ♥️ Jupyter Notebooks
+<p align="center">
+  <a href="https://datapane.com">
+    <img src="https://datapane-cdn.com/static/v1/datapane-logo-dark.svg.br" width="250px" alt="Datapane" />
+  </a>
+</p>
+<p align="center">
+  <a href="https://datapane.com/cloud">Cloud</a> |
+  <a href="https://docs.datapane.com">Docs</a> |
+      <a href="#demos-and-examples">Examples</a> |
+  <a href="https://datapane.nolt.io">Roadmap</a> | <a href="https://forum.datapane.com">Forum</a> |
+  <a href="https://chat.datapane.com">Discord</a>
+</p>
+<p align='center'>
+  <a href="https://pypi.org/project/datapane/">
+      <img src="https://img.shields.io/pypi/dm/datapane?label=pip%20downloads" alt="Pip Downloads" />
+  </a>
+  <a href="https://pypi.org/project/datapane/">
+      <img src="https://img.shields.io/pypi/v/datapane?color=blue" alt="Latest release" />
+  </a>
+  <a href="https://anaconda.org/conda-forge/datapane">
+      <img alt="Conda (channel only)" src="https://img.shields.io/conda/vn/conda-forge/datapane">
+  </a>
+</p>
 
-Welcome to your shiny new codespace! We've got everything fired up and running for you to explore Python and Jupyter notebooks.
+---
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with what you're seeing right now - where you go from here is up to you!
+## Welcome to Datapane
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+Hi there! 👋
+
+
+We're here to help you get up and running with Datapane. This repository contains:
+
+- A quickstart guide `quickstart.ipynb` to using Datapane to create and share _data apps_.
+- A collection of example data apps `/examples`, to help you get started.
+- A pre-configured Python environment powered by GitHub Codespace, with all the dependencies you need to get started.
+
+## Resources
+
+- [Join Discord](https://chat.datapane.com)
+- [Sign up for a free account](https://datapane.com/accounts/signup)
+- [Read the documentation](https://docs.datapane.com)
+- [Ask a question](https://forum.datapane.com/)
+
+
+## What makes Datapane special?
+
+<p align="center">
+  <a href="https://datapane.com">
+    <img src="https://user-images.githubusercontent.com/3541695/176545400-919a327d-ddee-4755-b29f-bf85fbfdb4ef.png"  width='75%'>
+  </a>
+</p>
+
+- **Static generation:** Sharing an app shouldn't require deploying an app. Render a standalone HTML bundle which you can share or host on the web.
+- **API-first and programmatic:** Programmatically generate apps from inside of Spark, Airflow, or Jupyter. Schedule updates to build real-time dashboards.
+- **Dynamic front-end components**: Say goodbye to writing HTML. Build apps from a set of interactive components, like DataTables, tabs, and selects.
