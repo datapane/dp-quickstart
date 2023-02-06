@@ -28,6 +28,8 @@
 
 Hi there! 👋
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=codespace-shahinrostami-cuddly-acorn-pj9grq544pxhrjp7&repo=598140720&machine=standardLinux32gb&devcontainer_path=.devcontainer%2Fdevcontainer.json&location=EastUs
+)
 
 We're here to help you get up and running with Datapane. This repository contains:
 
