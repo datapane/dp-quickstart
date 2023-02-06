@@ -1,2 +1,2 @@
-https://datapane-cdn.com/python-client-dev/datapane--py3-none-any.whl?cache-bust=55345
-ipywidgets==7.7.1
+ https://datapane-cdn.com/python-client/dev/datapane--py3-none-any.whl
+ ipywidgets==7.7.1
