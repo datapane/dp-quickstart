@@ -33,7 +33,7 @@ We're here to help you get up and running with Datapane. This repository contain
 
 - A quickstart guide `quickstart.ipynb` to using Datapane to create and share _data apps_.
 - A collection of example data apps `/examples`, to help you get started.
-- A pre-configured Python environment powered by GitHub Codespace, with all the dependencies you need to get started.
+- A pre-configured Python environment powered by GitHub Codespaces, with all the dependencies you need to get started.
 
 ## Resources
 
