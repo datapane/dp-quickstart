@@ -8,7 +8,7 @@
   "postCreateCommand": "",
   "customizations": {
     "codespaces": {
-      "openFiles": []
+      "openFiles": ["quickstart.ipynb"]
     },
     "vscode": {
       "extensions": [
