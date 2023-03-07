@@ -1,2 +1,2 @@
-datapane 
+datapane==0.16.1
 ipywidgets==7.7.1
