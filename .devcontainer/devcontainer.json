@@ -2,33 +2,19 @@
     "name":"Datapane Quickstart",
     "image":"mcr.microsoft.com/devcontainers/python:0-3.11-bullseye",
 
-    // Features to add to the dev container. More info: https://containers.dev/features.
-    "features":{
-       "ghcr.io/devcontainers/features/python:1":{
-         "version": "none", // Using the python version from the image
-         "installTools": false, // base image already provides
-          "installJupyterlab":true,
-          "configureJupyterlabAllowOrigin":"*"
-       }
-    },
     "waitFor":"onCreateCommand",
     "updateContentCommand":"python3 -m pip install -r requirements.txt",
     "forwardPorts":[
        8080
     ],
-    "customizations":{
-      "codespaces": {
-         "openFiles": [
-            "quickstart.ipynb"
-         ]
-       },
+   "customizations": {
       "vscode": {
          "settings": {
             "github.codespaces.defaultExtensions": [
                "ms-toolsai.jupyter",
                "ms-python.python"
             ],
-            "python.defaultInterpreterPath": "python"
+            "python.defaultInterpreterPath": "/usr/bin/local/python"
          },
          "extensions": [
              "ms-toolsai.jupyter",
