@@ -8,9 +8,6 @@
   //"postCreateCommand": "",
   "forwardPorts": [8080],
   "customizations": {
-    "codespaces": {
-      "openFiles": ["quickstart.ipynb"]
-    },
     "vscode": {
       "extensions": [
         "ms-toolsai.jupyter",
