@@ -5,7 +5,8 @@
     // Features to add to the dev container. More info: https://containers.dev/features.
     "features":{
        "ghcr.io/devcontainers/features/python:1":{
-          "installTools":true,
+         "version": "none", // Using the python version from the image
+         "installTools": false, // base image already provides
           "installJupyterlab":true,
           "configureJupyterlabAllowOrigin":"*"
        }
@@ -16,13 +17,20 @@
        8080
     ],
     "customizations":{
-       "codespaces":{
-          "openFiles":[
-             "quickstart.ipynb"
-          ]
+      "codespaces": {
+         "openFiles": [
+            "quickstart.ipynb"
+         ]
        },
-       "vscode":{
-          "extensions":[
+      "vscode": {
+         "settings": {
+            "github.codespaces.defaultExtensions": [
+               "ms-toolsai.jupyter",
+               "ms-python.python"
+            ],
+            "python.defaultInterpreterPath": "python"
+         },
+         "extensions": [
              "ms-toolsai.jupyter",
              "ms-python.python"
           ]
